@@ -5,6 +5,10 @@
   "type": "module",
   "description": "Open-source Chrome MV3 starter: Clerk auth, Supabase data (via BFF), Stripe checkout helpers, user management patterns.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JackZhong1998/NowBuild-extensionkit.git"
+  },
   "keywords": [
     "chrome-extension",
     "manifest-v3",
