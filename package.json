@@ -1,0 +1,42 @@
+{
+  "name": "nowbuild-extensionkit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Open-source Chrome MV3 starter: Clerk auth, Supabase data (via BFF), Stripe checkout helpers, user management patterns.",
+  "license": "MIT",
+  "keywords": [
+    "chrome-extension",
+    "manifest-v3",
+    "clerk",
+    "supabase",
+    "stripe",
+    "react",
+    "vite",
+    "typescript"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --noEmit",
+    "server:dev": "npm run dev --prefix server",
+    "server:build": "npm run build --prefix server"
+  },
+  "dependencies": {
+    "@clerk/chrome-extension": "^2.7.8",
+    "@supabase/supabase-js": "^2.49.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.5.0"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.0.0-beta.30",
+    "@types/chrome": "^0.0.313",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.2"
+  }
+}
